@@ -12,6 +12,15 @@
 
   <title>Frontend Mentor | Stats preview card component</title>
 
+  <svg height="0">
+    <filter id="purple">
+      <feColorMatrix type="matrix" values="
+      0.54     0     0     0     0
+              0     0.17     0     0     0
+              0     0     0.76     0     0
+              0     0     0     1     0 " />
+    </filter>
+  </svg>
 </head>
 
 <body>
@@ -25,18 +34,23 @@
 
       <section class="bottom">
         <div class="headings">
-          <span class="stats">10k+</span> <p>companies</p>
+          <span class="stats">10k+</span>
+          <p>companies</p>
         </div>
         <div class="headings">
-          <span class="stats">314</span> <p>templates</p>
+          <span class="stats">314</span>
+          <p>templates</p>
         </div>
         <div class="headings">
-          <span class="stats">12M+</span> <p>queries
+          <span class="stats">12M+</span>
+          <p>queries</p>
         </div>
       </section>
     </div>
-    <img src="images/image-header-desktop.jpg">
 
+
+    <img src="images/image-header-desktop.jpg" class="imgDesktop">
+    <img src="images/image-header-mobile.jpg" class="imgMobile">
   </main>
 
   <!--<div class="attribution">
